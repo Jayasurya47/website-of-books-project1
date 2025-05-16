@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./login.html" method="get" autocomplete="off" target="_blank">
+        <fieldset >
+            <legend align="center" ><h1>🧑‍💻Register</h1></legend>
+        
+            <table align="center" cellspacing="25"  cellpading="20px">
+                <tr>
+                    <th><lable for="studentname">Student Name*:</lable></th>
+                    <td><input type="text" id="studentname" name="studentname" autofocus required></td>
+                    <th><lable for="fathername">Father Name*:</lable></th>
+                    <td><input type="text" id="fathername" name="fathername" required></td>
+                </tr>
+                <tr>
+                    <th><lable for="phonenumber">Phone Number*:</lable></th>
+                    <td><input type="text" id="phonenumber" name="phonenumber" required></td>
+                    <th><lable for="altphonenumber">Alt Phone Number*:</lable></th>
+                    <td><input type="text" id="altphonenumber" name="altphonenumber" required></td>
+                </tr>
+                <tr>
+                    <th><lable for="gender">Gender*:</lable></th>
+                    <td>Male<input type="radio" id="gender" name="gender" required>
+                    Female<input type="radio" id="gender" name="gender" required></td>
+                    <th><lable for="date_of_birth ">Date Of Birth*:</lable></th>
+                    <td><input type="date" id="date_of_birth" name="date_of_birth" required></td>
+                </tr>
+                <tr>
+                    <th><label for="address">Applicant Address*</label></th>
+                    <td><textarea name="address" id="address" required></textarea></td>
+                    <th><lable for="District">District*:</lable></th>
+                    <td><select id="District" name="District" required>
+                        <option value="" disabled selected>----select district-----</option>
+                        <option value="Hydrabad">Hydrabad</option>
+                        <option value="Yadadri Bhuvanagiri">Yadadri Bhuvanagiri</option>
+                        <option value="Nalgonda">Nalgonda</option>
+                        <option value="Rangareddy">Rangareddy</option>
+                        <option value="Sangareddy">Sangareddy</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                   <th><lable for="email">Email: </lable></th>
+                     <td><input type="text" id="for" name="email" pattern="[a-z\d]+@(gmail|yahoou|org)+\.(in|org|com|at|co)" required autofocus></td>
+                   <th><lable for="password">Password: </lable></th>
+                   <td><input type="text" id="password" name="password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&]).{8,16}" autofocus required
+                    title="one uppercase letter , lowercase letters , numbers, special character , min-8 to max -16"></td>
+                </tr>
+         </table>
+         <center>
+            <img src="https://th.bing.com/th/id/R.3385b64a9a2b18dcae5dffdeb269f424?rik=NzIynrYwVnq%2bUA&riu=http%3a%2f%2f33.media.tumblr.com%2f2863add4edf8b6640d18ee3234922a4b%2ftumblr_nryy8hthX41r49w4fo1_1280.gif&ehk=uZdWmmWJQs0pqCzr%2bE6s82WLYMYlMiRKDSyKqgPKG5w%3d&risl=&pid=ImgRaw&r=0" alt="img not found" height="55" width="100">
+            <br>
+            <input type="text" placeholder="enter the captcha">
+         </center>
+        </fieldset>
+        <center>
+            <input type="submit">
+        </center>
+    </form>
+</body>
+</html>

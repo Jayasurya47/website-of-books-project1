@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="books1.html" method="get" autocomplete="off" target="_blank">
+    <fieldset >
+    <legend align="center"><h1>🔒Login_Form</h1></legend>
+    <center>
+        <h2><b>ENTER THE CREDENTIALS</b></h2>
+    
+        <lable for="email">Email: </lable>
+        <input type="text" id="for" name="email" pattern="[a-z\d]+@(gmail|yahoou|org)+\.(in|org|com|at|co)" required autofocus><br>
+        <lable for="password">Password: </lable>
+        <input type="text" id="password" name="password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&]).{8,16}" autofocus required
+         title="one uppercase letter , lowercase letters , numbers, special character , min-8 to max -16">
+         <br>
+        <input type="submit" value="login">
+    </center>
+    
+    </fieldset>
+    </form>
+    
+    
+</body>
+</html>
